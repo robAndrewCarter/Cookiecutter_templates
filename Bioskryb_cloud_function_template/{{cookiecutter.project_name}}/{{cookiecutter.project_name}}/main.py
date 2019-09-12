@@ -1,4 +1,6 @@
 import logging
+from google.cloud import storage
+
 
 logger = logging.getLogger()
 
