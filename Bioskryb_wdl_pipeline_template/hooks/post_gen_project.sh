@@ -8,4 +8,4 @@ git init
 
 mv pre-commit .git/hooks
 
-echo Don't forget to setup the cloudbuild.yaml file. It is incomplete.
+echo "Don't forget to setup the cloudbuild.yaml file. It is incomplete."
