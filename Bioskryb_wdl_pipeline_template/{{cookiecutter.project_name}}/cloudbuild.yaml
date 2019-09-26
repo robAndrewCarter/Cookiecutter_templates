@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ["cp", "{{cookiecutter.project_name}}.wdl", ""]
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ["cp", "{{cookiecutter.project_name}}_inputs.json", ""]
