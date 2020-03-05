@@ -1,0 +1,7 @@
+*
+!data_tracked/
+!data_tracked/*
+!*.Rmd
+!*.py
+!*.sh
+!.gitignore
